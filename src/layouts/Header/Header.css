@@ -1,0 +1,22 @@
+#header {
+  position: sticky;
+  top: 0;
+  right: 0;
+  width: 100%;
+  padding: var(--md-padding-m);
+  z-index: 999999;
+  background-color: transparent;
+  transition: backdrop-filter 0.3s ease-in-out,
+    background-color 0.3s ease-in-out;
+  justify-content: end;
+}
+
+.blur-header {
+  backdrop-filter: blur(10px);
+}
+
+#iconsContainer {
+  max-width: 100%;
+  padding: 0 var(--md-padding-l);
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}

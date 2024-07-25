@@ -1,0 +1,31 @@
+#contact {
+  margin-top: var(--md-margin-section);
+  margin-bottom: var(--md-margin-section);
+}
+
+#contact > ul {
+  gap: var(--md-gap-xxl);
+}
+
+#contact ul > li > a > img {
+  width: 45px;
+  max-width: 100%;
+}
+
+#contact ul > li:nth-child(2) {
+  width: 36px;
+}
+
+#contact ul > li:nth-child(3) {
+  width: 37px;
+}
+
+#contact ul > li:nth-child(4) {
+  width: 25px;
+}
+
+@media screen and (max-width: 525px) {
+  #contact > ul {
+    gap: var(--md-gap-xl);
+  }
+}

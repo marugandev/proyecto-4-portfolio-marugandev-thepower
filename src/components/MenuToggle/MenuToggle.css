@@ -1,0 +1,19 @@
+img[src="/assets/icons/toggle-menu.svg"] {
+  width: 28px;
+}
+
+img[src="/assets/icons/toggle-menu-close.svg"] {
+  width: 24px;
+}
+
+#menuIcon {
+  max-width: 100%;
+  display: none;
+}
+
+@media screen and (max-width: 525px) {
+  #menuIcon {
+    display: block;
+    cursor: pointer;
+  }
+}

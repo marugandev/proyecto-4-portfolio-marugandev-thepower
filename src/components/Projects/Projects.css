@@ -1,0 +1,94 @@
+/* #projects {
+  border-top: 2px solid var(--md-color-primary);
+}
+
+#projects.dark-mode {
+  border-top: 2px solid var(--md-white);
+}
+ */
+
+.project {
+  /*  border-bottom: 2px solid var(--md-color-primary); */
+  width: 100%;
+  position: relative;
+}
+
+/* .project.dark-mode {
+  border-bottom: 2px solid var(--md-white);
+} */
+
+.project > figure {
+  position: relative;
+  max-width: 100%;
+  flex-direction: column;
+  /*   align-items: start; */
+  padding: var(--md-padding-xl);
+  overflow: hidden;
+}
+
+.project > figure > a {
+  z-index: 1;
+  max-width: 450px;
+  /* height: 350px; */
+}
+
+.project > figure > a > img {
+  box-shadow: var(--md-box-shadow-l);
+  width: 100%;
+  /*  height: 100%; */
+  object-fit: contain;
+}
+
+.project > figure > figcaption {
+  flex-direction: column;
+}
+
+.h3-back {
+  color: var(--md-bg-accent);
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: none;
+  text-wrap: nowrap;
+  font-size: 280px;
+  font-style: italic;
+  animation: runText 10s linear infinite;
+  z-index: 0;
+}
+
+@keyframes runText {
+  0% {
+    transform: translateX(100%);
+    /* backdrop-filter: blur(10px); */
+  }
+  100% {
+    transform: translateX(-150%);
+  }
+}
+
+.project > figure > figcaption > h3 {
+  color: var(--md-bg-accent);
+}
+
+.project > figure > figcaption > p {
+  max-width: 350px;
+}
+
+.project > figure > figcaption > div {
+  width: 100%;
+  gap: var(--md-gap-m);
+}
+
+.project > figure > figcaption > div > a > img {
+  width: 24px;
+  cursor: pointer;
+}
+
+.project > figure > figcaption > div > a:nth-child(2) > img {
+  width: 16px;
+  cursor: pointer;
+}
+
+.project > figure > figcaption > div > a:hover {
+  transform: none;
+}

@@ -1,0 +1,110 @@
+#hero {
+  width: 100%;
+  min-height: 100svh;
+  /* background-color: var(--md-color-tertiary); */
+}
+
+#mainLogo {
+  /* position: absolute; */
+  top: 180px;
+  left: 20px;
+  width: 300px;
+  /* z-index: 9999999999; */
+}
+
+.img-container {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  clip-path: var(--md-clip-path-polygon-logo-porcent);
+}
+
+.heroImg {
+  position: absolute;
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+  transition: opacity 0.1s ease-in-out;
+  cursor: pointer;
+  /* filter: grayscale(1); */
+}
+
+.heroImgMain {
+  opacity: 1;
+}
+
+.heroImgHover {
+  opacity: 0;
+}
+
+.img-container:hover .heroImgMain {
+  opacity: 0;
+}
+
+.img-container:hover .heroImgHover {
+  opacity: 1;
+}
+
+#heroTextContainer {
+  max-width: 500px;
+  min-height: 500px;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+.text-accent {
+  color: var(--md-color-accent);
+}
+
+.skills-container {
+  position: relative;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+#skills {
+  color: var(--md-color-accent);
+  font-size: var(--md-font-size-special);
+  font-weight: 600;
+  font-style: italic;
+  flex-wrap: nowrap;
+  /*   text-wrap: nowrap; */
+  animation: runText 10s linear infinite;
+}
+
+@keyframes runText {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.tooltip-parent {
+  position: relative;
+}
+
+.hoverable-text {
+  text-decoration: underline var(--md-color-accent);
+  cursor: pointer;
+  opacity: 1;
+  transition: opacity 0.1s ease-in-out;
+}
+
+.tooltip {
+  display: none;
+  position: absolute;
+  font-size: var(--md-font-size-xl);
+  padding: var(--md-padding-s);
+  backdrop-filter: blur(10px);
+  z-index: 6;
+  /* text-wrap: nowrap; */
+}
+
+.tooltip::after {
+  content: "";
+  position: absolute;
+}
