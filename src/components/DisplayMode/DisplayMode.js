@@ -32,7 +32,7 @@ export const DisplayMode = () => {
       iconDisplayMode.alt = "Modo claro";
       iconDisplayMode.title = "Modo claro";
 
-      imgLogo.src = "./public/assets/logo-negativo.svg";
+      imgLogo.src = "/assets/logo-negativo.svg";
 
       projects.classList.add("dark-mode");
       projectItems.forEach((project) => {
@@ -40,16 +40,16 @@ export const DisplayMode = () => {
       });
 
       anchorsGithub.forEach((img) => {
-        img.src = "/public/assets/icons/github-logo-negativo.svg";
+        img.src = "/assets/icons/github-logo-negativo.svg";
       });
       anchorsFigma.forEach((img) => {
-        img.src = "/public/assets/icons/figma-logo-negativo.svg";
+        img.src = "/assets/icons/figma-logo-negativo.svg";
       });
       anchorsEmail.forEach((img) => {
-        img.src = "/public/assets/icons/email-icon-negativo.svg";
+        img.src = "/assets/icons/email-icon-negativo.svg";
       });
       anchorsLinkedin.forEach((img) => {
-        img.src = "/public/assets/icons/linkedin-logo-negativo.svg";
+        img.src = "/assets/icons/linkedin-logo-negativo.svg";
       });
 
       localStorage.setItem("displayMode", "dark");
@@ -59,7 +59,7 @@ export const DisplayMode = () => {
       iconDisplayMode.alt = "Modo oscuro";
       iconDisplayMode.title = "Modo oscuro";
 
-      imgLogo.src = "./public/assets/logo-positivo.svg";
+      imgLogo.src = "/assets/logo-positivo.svg";
 
       projects.classList.remove("dark-mode");
       projectItems.forEach((project) => {
@@ -67,16 +67,16 @@ export const DisplayMode = () => {
       });
 
       anchorsGithub.forEach((img) => {
-        img.src = "/public/assets/icons/github-logo-positivo.svg";
+        img.src = "/assets/icons/github-logo-positivo.svg";
       });
       anchorsFigma.forEach((img) => {
-        img.src = "/public/assets/icons/figma-logo-positivo.svg";
+        img.src = "/assets/icons/figma-logo-positivo.svg";
       });
       anchorsEmail.forEach((img) => {
-        img.src = "/public/assets/icons/email-icon-positivo.svg";
+        img.src = "/assets/icons/email-icon-positivo.svg";
       });
       anchorsLinkedin.forEach((img) => {
-        img.src = "/public/assets/icons/linkedin-logo-positivo.svg";
+        img.src = "/assets/icons/linkedin-logo-positivo.svg";
       });
 
       localStorage.setItem("displayMode", "light");

@@ -9,7 +9,7 @@ export const Hero = () => {
 
   const imgLogo = document.createElement("img");
   imgLogo.id = "mainLogo";
-  imgLogo.src = "./public/assets/logo-positivo.svg";
+  imgLogo.src = "/assets/logo-positivo.svg";
 
   const divImg = document.createElement("div");
   divImg.classList.add("img-container");
