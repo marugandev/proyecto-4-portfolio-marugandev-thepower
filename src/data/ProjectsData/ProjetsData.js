@@ -12,7 +12,7 @@ export const ProjectsData = [
       target: "_blank",
       rel: "noopener noreferrer",
       title: "Github",
-      src: "/public/assets/icons/github-logo-positivo.svg",
+      src: "/assets/icons/github-logo-positivo.svg",
       alt: "Github logo"
     },
     figma: {
@@ -37,7 +37,7 @@ export const ProjectsData = [
       target: "_blank",
       rel: "noopener noreferrer",
       title: "Github",
-      src: "/public/assets/icons/github-logo-positivo.svg",
+      src: "/assets/icons/github-logo-positivo.svg",
       alt: "Github logo"
     },
     figma: {
@@ -63,7 +63,7 @@ export const ProjectsData = [
       target: "_blank",
       rel: "noopener noreferrer",
       title: "Github",
-      src: "/public/assets/icons/github-logo-positivo.svg",
+      src: "/assets/icons/github-logo-positivo.svg",
       alt: "Github logo"
     },
     figma: {
@@ -88,7 +88,7 @@ export const ProjectsData = [
       target: "_blank",
       rel: "noopener noreferrer",
       title: "Github",
-      src: "/public/assets/icons/github-logo-positivo.svg",
+      src: "/assets/icons/github-logo-positivo.svg",
       alt: "Github logo"
     },
     figma: {
