@@ -83,7 +83,7 @@ export const DisplayMode = () => {
     }
   };
 
-  /* const setInitialMode = () => {
+  const setInitialMode = () => {
     const savedMode = localStorage.getItem("displayMode");
 
     if (savedMode === "dark") {
@@ -98,13 +98,13 @@ export const DisplayMode = () => {
       iconDisplayMode.title = "Modo oscuro";
     }
   };
- */
+
   iconDisplayMode.addEventListener("click", (e) => {
     e.preventDefault();
     toggleDisplayModeContainer();
   });
 
-  /*  setInitialMode();
-   */
+  setInitialMode();
+
   return iconDisplayMode;
 };

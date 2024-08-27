@@ -1,5 +1,30 @@
 export const ProjectsData = [
   {
+    name: "GAMESHUB",
+    description: "Minijuegos.",
+    href: "https://proyecto-5-gameshub.netlify.app/",
+    target: "_blank",
+    rel: "noopener noreferrer",
+    imgSrc: "./assets/images/captura-gameshub.png",
+    imgAlt: "Gameshub",
+    github: {
+      href: "https://github.com/marugandev/proyecto-5-gameshub.git",
+      target: "_blank",
+      rel: "noopener noreferrer",
+      title: "Github",
+      src: "/assets/icons/github-logo-positivo.svg",
+      alt: "Github logo"
+    },
+    figma: {
+      href: "#",
+      target: "_blank",
+      rel: "noopener noreferrer",
+      title: "Figma",
+      /* src: "/public/assets/icons/figma-logo-positivo.svg", */
+      alt: "Figma logo"
+    }
+  },
+  {
     name: "PINTEREST DEMO",
     description: "Web demo de la red social Pinterest.",
     href: "https://proyecto-3-pinterest-thepower.netlify.app/",
